@@ -1,0 +1,1 @@
+-IG:/VSCode_Workspace/Design_Patterns/strategy/include -IG:/VSCode_Workspace/Design_Patterns/strategy/$$(PROJECT_SOURCE_DIR) -IC:/Develop/opencv/build/x64/MinGW/install/include -IC:/Develop/opencv/build/x64/MinGW/install/include/opencv2 -IC:/MinGW/include 

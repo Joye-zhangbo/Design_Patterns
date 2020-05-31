@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Strategy.h
+
+G:/VSCode_Workspace/Design_Patterns/strategy/src/main.cpp
+Strategy.h
+G:/VSCode_Workspace/Design_Patterns/strategy/src/Strategy.h
+

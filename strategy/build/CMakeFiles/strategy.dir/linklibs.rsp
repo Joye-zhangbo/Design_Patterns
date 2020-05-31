@@ -1,0 +1,1 @@
+  -LC:/Develop/opencv/build/x64/MinGW/install/x64/mingw/lib  -lopencv_core412 -lopencv_highgui412 -lopencv_imgcodecs412 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

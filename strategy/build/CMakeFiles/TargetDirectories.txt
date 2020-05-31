@@ -1,0 +1,3 @@
+G:/VSCode_Workspace/Design_Patterns/strategy/build/CMakeFiles/strategy.dir
+G:/VSCode_Workspace/Design_Patterns/strategy/build/CMakeFiles/edit_cache.dir
+G:/VSCode_Workspace/Design_Patterns/strategy/build/CMakeFiles/rebuild_cache.dir
