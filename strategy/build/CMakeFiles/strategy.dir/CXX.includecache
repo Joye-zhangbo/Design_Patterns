@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../include/Strategy.h
+../include/strategy.h
 
 G:/VSCode_Workspace/Design_Patterns/strategy/src/main.cpp
-Strategy.h
-G:/VSCode_Workspace/Design_Patterns/strategy/src/Strategy.h
+strategy.h
+G:/VSCode_Workspace/Design_Patterns/strategy/src/strategy.h
+vector
+-
+cstdio
+-
 

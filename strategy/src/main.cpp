@@ -1,4 +1,6 @@
-#include "Strategy.h"
+#include "strategy.h"
+#include <vector>
+#include <cstdio>
 
 int main()
 {
@@ -9,13 +11,22 @@ int main()
     这两种方式各有优缺点
   */
   //策略A与B可替换
+  std::vector<Context *> strategy_vec;
   Strategy *pStr = new ConcreteStrategyA();
   Context *pcon = new Context(pStr);
-  pcon->DoAction();
+  strategy_vec.emplace_back(pcon);
+  // pcon->DoAction();
 
   pStr = new ConcreteStrategyB();
   pcon = new Context(pStr);
-  pcon->DoAction();
+  strategy_vec.emplace_back(pcon);
+
+  // pcon->DoAction();
+  printf("strategy size: %d\n", strategy_vec.size());
+  for (auto &pstra : strategy_vec)
+  {
+    pstra->DoAction();
+  }
 
   delete pStr, pcon;
 
